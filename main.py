@@ -79,6 +79,7 @@ def save_questions(filepath) -> None:
         
 def quiz() -> tuple:
     """ Quiz Game """
+    clear() # clears the screen
     Print("\t\tPython Quiz\n")
     Print("\t\t-----------\n")
     questions = list(python_qa())
