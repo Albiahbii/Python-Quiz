@@ -230,5 +230,8 @@ if __name__ == "__main__":
     to = "recipient_email@recipient_domain.com" # To address, email address of the email recipient
     
     # pass the variables (from_, to, pass_) to the main function for sending email
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        Print("Keyboard Interupt... Exiting Script")
 
