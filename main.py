@@ -233,5 +233,5 @@ if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        Print("Keyboard Interupt... Exiting Script")
+        Print("\nKeyboard Interupt... Exiting Script")
 
