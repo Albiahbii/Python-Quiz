@@ -224,8 +224,7 @@ def main(from_=None, pass_=None, to=None) -> None:
 
 if __name__ == "__main__":
     from_ = "your_email@your_domain.com" # Your email address
-    pass_ = "qwertyuiopasdfgh"# Your app password
-    # (intentionally changed for my password security)
+    pass_ = "your_app_password"# Your app password
     # use your own password, preferably use an environment variable
     to = "recipient_email@recipient_domain.com" # To address, email address of the email recipient
     
